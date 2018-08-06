@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>页面布局7---高度宽度自适应</title>
+        <style type="text/css">
+            body,div,header,footer,div{margin: 0; padding:0;}
+            .container{width: 100%; background-color: red}
+            .header,.footer{height: 60px; background-color: yellow;}
+            .content{overflow: hidden;}
+            .left{float: left; width: 30%; height: 100%; background-color: green;}
+            .right{float: right; width: 30%; height: 100%;  background-color: blue;}
+            .center{width:100%; }
+            .main{overflow: hidden;}
+            .left,.right,.center{padding-bottom: 9999px; margin-bottom: -9999px;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header"></header>
+            <div class="content">
+                <section class="left">leftfg<br>left<br>left</section>
+                <section class="right">right</section>
+                <section class="center">
+                    <div class="main">center<br>center</div>
+                </section>
+                
+            </div>
+            <footer class="footer"></footer>
+        </div>
+    </body>
+</html>

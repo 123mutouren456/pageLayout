@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>页面布局五</title>
+        <style type="text/css">
+            body,section,header,footer,div{margin: 0; padding: 0;}
+            .container{width: 100%;}
+            .header,.footer{height: 60px; background-color: orange;}
+            .content{height: 500px; background-color: green;}
+            .left{width: 100px; height: 100%; float: left; background-color: yellow;}
+            .right{margin-left: 100px; height: 100%; background-color: red;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header"></header>
+            <section class="content">
+                <div class="left">left</div>
+                <div class="right">right</div>
+            </section>
+            <footer class="footer"></footer>
+        </div>
+    </body>
+</html>

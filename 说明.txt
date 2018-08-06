@@ -1,0 +1,5 @@
+最近在做页面布局方面的总结，遇到很多新的名词，对我来说是新的，如BFC/IFC，于是找了一些相关资料
+css2.1规范文档
+https://www.w3.org/TR/2011/REC-CSS2-20110607/
+http://www.ayqy.net/doc/css2-1/cover.html
+http://www.cnblogs.com/lhb25/p/inside-block-formatting-ontext.html

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>页面布局九---flex</title>
+        <style type="text/css">
+            .container{width: 100%; background-color: yellow;}
+            .header,.footer{height: 60px; background-color: orange;}
+            .content{display: flex; background-color: red}
+            .left{width: 100px;  background-color: green;}
+            .right{flex:1 1 auto; background-color: pink;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header"></header>
+            <div class="content">
+                <div class="left">left left left left left left</div>
+                <div class="right">right</div>
+            </div>
+            <footer class="footer"></footer>
+        </div>
+    </body>
+</html>
